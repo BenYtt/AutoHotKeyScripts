@@ -1,8 +1,6 @@
 # AutoHotKeyScripts
 
 ## AutoCastD3
-
-asdasd
 This script aims to help players used to "numlock-casting" in Diablo 3 to achieve the same thing using this simple script. To run this script [AutoHotKey](https://www.autohotkey.com) needs to be correctly installed. 
 
 *Run the script.*
@@ -11,7 +9,6 @@ This script aims to help players used to "numlock-casting" in Diablo 3 to achiev
 * Press **HOME** to exit the script, otherwise if will run until your computer is shut down.
 
 ## PlayerCount Diablo2
-
 This script is for the lazy or fat fingered Diablo 2 player looking for a faster and easier way to change /players when playing the game. To run this script [AutoHotKey](https://www.autohotkey.com) needs to be correctly installed. 
 
 *Run the script.*
