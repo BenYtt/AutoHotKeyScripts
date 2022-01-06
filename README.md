@@ -13,7 +13,7 @@ This script aims to help players used to "numlock-casting" in Diablo 3 to achiev
 
 ## PlayerCount Diablo2
 
-This script is for the lazy or fat fingered Diablo 2 player looking for a faster and easier way to change /players when playing the game*. To run this script [AutoHotKey](https://www.autohotkey.com) needs to be correctly installed. 
+This script is for the lazy or fat fingered Diablo 2 player looking for a faster and easier way to change /players when playing the game. To run this script [AutoHotKey](https://www.autohotkey.com) needs to be correctly installed. 
 
 *Run the script.*
 
