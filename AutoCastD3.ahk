@@ -1,7 +1,7 @@
-n1status := 0
-n2status := 0
-n3status := 0
-n4status := 0
+isNum1Enabled := 0
+isNum2Enabled := 0
+isNum3Enabled := 0
+isNum4Enabled := 0
 Send, {Numpad1 up}
 Send, {Numpad2 up}
 Send, {Numpad3 up}
@@ -9,44 +9,56 @@ Send, {Numpad4 up}
 
 
 F1::
-If( n1status = 0 ){
+If( isNum1Enabled = 0 )
+{
 	Send, {Numpad1 down}
-	n1status = 1
-} Else If ( n1status = 1){
+	isNum1Enabled = 1
+} 
+Else If ( isNum1Enabled = 1)
+{
 	Send, {Numpad1 up}
-	n1status = 0
+	isNum1Enabled = 0
 }
 Return
 
 F2::
-If( n2status = 0 ){
+If( isNum2Enabled = 0 )
+{
 	Send, {Numpad2 down}
-	n2status = 1
-} Else If ( n2status = 1){
+	isNum2Enabled = 1
+} 
+Else If ( isNum2Enabled = 1)
+{
 	Send, {Numpad2 up}
-	n2status = 0
+	isNum2Enabled = 0
 }
 Return
 
 
 F3::
-If( n3status = 0 ){
+If( isNum3Enabled = 0 )
+{
 	Send, {Numpad3 down}
-	n3status = 1
-} Else If ( n3status = 1){
+	isNum3Enabled = 1
+} 
+Else If ( isNum3Enabled = 1)
+{
 	Send, {Numpad3 up}
-	n3status = 0
+	isNum3Enabled = 0
 }
 Return
 
 
 F4::
-If( n4status = 0 ){
+If( isNum4Enabled = 0 )
+{
 	Send, {Numpad4 down}
-	n4status = 1
-} Else If ( n4status = 1){
+	isNum4Enabled = 1
+} 
+Else If ( isNum4Enabled = 1)
+{
 	Send, {Numpad4 up}
-	n4status = 0
+	isNum4Enabled = 0
 }
 Return
 
