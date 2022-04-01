@@ -21,7 +21,7 @@ This script is for the lazy or fat fingered Diablo 2 player looking for a faster
 * Press **F2** to set **/players 7**
 * Press **F3** to set **/players 5**
 * Press **F4** to set **/players 3**
-* Press **F5* to set **/players 1**
+* Press **F5** to set **/players 1**
 * Press **HOME** to **exit**, otherwise if will run until your computer is shut down.
 * Pressing **F1** (setting **/players 8**) and then pressing **F2** will set **/players 7**, it's the same for all key combinations.
 
