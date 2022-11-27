@@ -3,7 +3,7 @@
 #InstallKeybdHook 
 #Installmousehook 
 #Persistent
-SetKeyDelay, 10, 20
+SetKeyDelay, 20, 20
 
 Home::
 MsgBox Script is stopped
@@ -62,7 +62,7 @@ F6::
 Process, Exist, D2R.exe
 If !ErrorLevel = 0
 {
-	send {Esc} {Down} {Down} {Up} {return}
+	send {Esc}{Down}{Down}{Up}{return}
 	
 	return
 }
