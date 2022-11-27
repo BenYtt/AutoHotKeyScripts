@@ -3,7 +3,7 @@
 #InstallKeybdHook 
 #Installmousehook 
 #Persistent
-SetKeyDelay, 50, 25
+SetKeyDelay, 10, 20
 
 Home::
 MsgBox Script is stopped
