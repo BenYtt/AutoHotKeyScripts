@@ -31,16 +31,17 @@ This script is for the lazy or fat fingered Diablo 2 player looking for a faster
 
 ## QuickExitD2
 
-This is an instant one button quit macro I made for running HC to avoid deaths. The keybinds **F1-F6** will only work when the process D2R.exe is running. I highly recommend making sure the script is running (F7) so that you don't die.
+This is an instant one button quit macro I made for running HC to avoid deaths. The keybinds **F1-F6** and **§** will only work when the process D2R.exe is running. I highly recommend making sure the script is running (F7) so that you don't die.
 
 *Run the script.*
 
 * Press **F1** to enter the game on the selected character on hell difficulty.
+* Press **§** to **quit** the current game.
 * Press **F2** to set **/players 1**
 * Press **F3** to set **/players 3**
 * Press **F4** to set **/players 5**
 * Press **F5** to set **/players 7**
-* Press **F6** to **quit** the current game.
+* Press **F6** to set **/players 8**
 * Press **F7** to display a message box if the script is running.
 * Press **HOME** to **exit** the script. A message box with a confirmation will be shown on the screen.
 
