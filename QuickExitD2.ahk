@@ -13,7 +13,7 @@ F1::
 Process, Exist, D2R.exe
 If !ErrorLevel = 0
 {
-	send {return} h
+	send {return}h
 	
 	return
 }
@@ -59,6 +59,16 @@ If !ErrorLevel = 0
 }
 
 F6::
+Process, Exist, D2R.exe
+If !ErrorLevel = 0
+{
+	Send {return}
+	Sleep, 25
+	SendInput, `/players 8{return}
+	Return
+}
+
+SC029::
 Process, Exist, D2R.exe
 If !ErrorLevel = 0
 {
